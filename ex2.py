@@ -9,7 +9,7 @@
 # Entrada: -25.02 | Saída: Fora de intervalo
 
 lista = [[0,25], [25,50], [50,75], [75,100]]
-digitANumber = int(input("digite um número: "))
+digitANumber = float(input("digite um número: ")) #float pq pode ser 0.03 não int
 i = 0
 whichInterval = 0
 while i < len(lista):
